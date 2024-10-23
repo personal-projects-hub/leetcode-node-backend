@@ -1,12 +1,12 @@
 import express from "express";
 import WebSocket from "ws";
-import { PubSubQueue } from "./Queue";
-import { startWorker } from "./Worker";
+import { PubSubQueue } from "./src/Queue";
+import { startWorker } from "./src/Worker";
 
 import cors from "cors";
 
 
-import dbConnect from "./db";
+import dbConnect from "./src/db";
 
 const app = express();
 app.use(express.json());

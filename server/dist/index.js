@@ -31,7 +31,7 @@ const sendToUser = (userId, message) => {
         client.send(message.toString()); // Convert Buffer to string if necessary
     }
     else {
-        console.log(`Client for user ${userId} is not connected or has disconnected.`);
+        console.log(`Client for user ${userId} is not connected or has hellow  disconnected.`);
     }
 };
 Queue_1.PubSubQueue.getInstance().subscribe('getSubmission', (message) => {

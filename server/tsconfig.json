@@ -11,7 +11,7 @@
   },
   "include": [
     "src/**/*"                                            /* Include all files under the src directory */
-  ],
+, "index.ts"  ],
   "exclude": [
     "node_modules"                                        /* Exclude node_modules folder */
   ]
