@@ -27,7 +27,7 @@ const sendToUser = (userId: string, message: string | Buffer): void => {
     if (client && client.readyState === WebSocket.OPEN) {
         client.send(message.toString()); // Convert Buffer to string if necessary
     } else {
-        console.log(`Client for user ${userId} is not connected or has disconnected.`);
+        console.log(`Client for user ${userId} is not connected or has hellow  disconnected.`);
     }
 };
 
